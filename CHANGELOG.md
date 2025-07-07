@@ -1,3 +1,18 @@
+# 1.0.0
+- `FileManager.getJSON` has try catches
+- `FileManager.readFile` is cleaner
+- New things:
+	- `FileManager.readDirectory` has an optional `typeArr` argument that will search for specific file types
+	- `FileManager.writeToPath` can create the directories required to write to the desired path
+	- `FileManager` has these new functions:
+		- `getSparrowAtlas` : Useful for sparrow sprite sheets
+		- `getPackerAtlas` : Useful for sparrow spritesheets using text files ( idk )
+		- `getScriptArray` : System only, returns a list of files with ".hx" or ".hxc" extensions
+		- `getTypeArray` : Returns a list of files with a specific type
+	- `TryCatch` works better and can be used as a return
+- Filemanager uses `posinfo` stuff, not enabled but can be
+- Removal of the Filemanager version
+
 # 0.0.3 - 2/22/2025
 ## Changed
 - `FileManager` version is now `9.7`

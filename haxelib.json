@@ -4,11 +4,12 @@
     "license": "MIT",
     "tags": ["utility"],
     "description": "This library is purely for utilities",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "releasenote": "File manager update",
     "contributors": ["Sinco"],
     "dependencies": {
       "flixel": "",
+      "openfl": "",
       "lime": ""
     }
   }
