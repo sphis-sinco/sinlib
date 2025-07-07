@@ -1,4 +1,4 @@
-# 1.0.0
+# 1.0.0 - 7/7/2025
 - `FileManager.getJSON` has try catches
 - `FileManager.readFile` is cleaner
 - New things:
