@@ -26,7 +26,8 @@ class PlayState extends FlxState
 					trace('TryCatch: Error');
 				}
 		});
-		trace('FileManager (v${FileManager.FILE_MANAGER_VERSION}): ${FileManager.readFile(FileManager.getDataFile('data-goes-here.txt'))}');
+		// trace('FileManager (v${FileManager.FILE_MANAGER_VERSION}): ${FileManager.readFile(FileManager.getDataFile('data-goes-here.txt'))}');
+		trace('FileManager: ${FileManager.readFile(FileManager.getDataFile('data-goes-here.txt'))}');
 		trace('Application version: ${Application.VERSION}');
 
 		// 0.0.2
@@ -47,6 +48,9 @@ class PlayState extends FlxState
 
                 // 0.0.3
 		trace('images-go-here.txt existance: ${FileManager.exists(FileManager.getAssetFile('images/images-go-here.txt'))}');
+
+		// 1.0
+		FileManager.writeToPath('hi/deez/balls/inyourmouth.txt', 'deez nuts');
 
 		super.create();
 	}

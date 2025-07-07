@@ -10,7 +10,7 @@
 		- `getScriptArray` : System only, returns a list of files with ".hx" or ".hxc" extensions
 		- `getTypeArray` : Returns a list of files with a specific type
 	- `TryCatch` works better and can be used as a return
-- Filemanager uses `posinfo` stuff, not enabled but can be
+- Filemanager uses `posinfo` stuff, not enabled, but can be
 - Removal of the Filemanager version
 
 # 0.0.3 - 2/22/2025
